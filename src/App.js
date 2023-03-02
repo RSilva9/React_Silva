@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import Title from './components/Title';
+import PictureCarousel from './components/PictureCarousel';
 import './css/main.css';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
     <NavBar />
     <main>
-      <ItemListContainer greeting={<h1 className='text-center'>Los mejores Funko Pop para tu colección</h1>} />
+      <Title greeting={<h1 className='text-center'>Los mejores Funko Pop para tu colección</h1>} />
+      <PictureCarousel />
     </main>
     </>
   )
