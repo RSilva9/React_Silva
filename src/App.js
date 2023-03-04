@@ -1,14 +1,15 @@
-import NavBar from './components/NavBar';
+import RNavBar from './components/NavBar';
 import Title from './components/Title';
 import PictureCarousel from './components/PictureCarousel';
-import './css/main.css';
+import './css/main.css'
+import TitleContainer from './components/TitleContainer';
 
 function App() {
   return (
     <>
-    <NavBar />
+    <RNavBar />
     <main>
-      <Title greeting={<h1 className='text-center'>Los mejores Funko Pop para tu colección</h1>} />
+      <TitleContainer />
       <PictureCarousel />
     </main>
     </>

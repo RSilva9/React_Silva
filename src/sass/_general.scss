@@ -1,11 +1,27 @@
 nav{
-    background-color: rgb(236, 172, 119);
+    background-color: black;
+    
+    .container{
+        margin: 0px;
+        max-width: 100%;
+    }
 
     img{
         width: 10em;
-        margin-right: 15px;
     }
+
     svg{
         width: 35px;
+    }
+    a.nav-link{
+        font-size: 1.3em;
+        margin: 0px 10px;
+        transition: 0.5s;
+        font-weight: bold;
+        color: white;
+    }
+    a.nav-link:hover{
+        font-size: 1.5em;
+        color: white;
     }
 }

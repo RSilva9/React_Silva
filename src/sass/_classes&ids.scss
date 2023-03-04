@@ -1,3 +1,27 @@
-h1{
-    font-size: 22px;
+#TitleContainer{
+    @include flex(row, center, center, nowrap);
+    background-image: url("../img/greenBg.webp");
+    min-height: 30vh;
+
+    h1{
+        font-size: 3em;
+        color: white;
+    }
+
+    img{
+        width: 400px;
+        margin: 15px 0px;
+    }
+}
+
+#cell1, #cell2, #cell3{
+    @include flex(row, center, center, nowrap);
+    img{
+        width: 22%;
+        margin: 0px 15px;
+    }
+    div{
+        width: 50%;
+        @include flex(row, center, center, nowrap);
+    }
 }
