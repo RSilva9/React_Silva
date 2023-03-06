@@ -19,6 +19,7 @@ function RNavBar() {
             <Link to="/catalogo">Catálogo</Link>
             <Link to="#">Contacto</Link>
           </Nav>
+          <CartWidget />
         </Navbar.Collapse>
       </Container>
     </Navbar>
