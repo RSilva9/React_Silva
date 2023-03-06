@@ -2,457 +2,449 @@
     {
       "name": "Gandalf on Gwaihir",
       "description": "Gandalf on Gwaihir",
-      "number": 72,
+      "number": 1,
       "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/gandalf-on-gwaihir",
-      "image": "pops/Gandalf_Gwaihir.webp",
-      "category": "LotR"
+      "image": "/pops/Gandalf_Gwaihir.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Gandalf",
       "description": "Gandalf",
-      "number": 443,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-lotr-hobbit-gandalf",
-      "image": "pops/Gandalf.webp",
-      "category": "LotR"
+      "number": 2,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-gandalf",
+      "image": "/pops/Gandalf.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Frodo Baggins",
       "description": "Frodo Baggins",
-      "number": 444,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-lotr-hobbit-frodo-baggins-w-chase",
-      "image": "pops/Frodo.webp",
-      "category": "LotR"
+      "number": 3,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-frodo-baggins-w-chase",
+      "image": "/pops/Frodo.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Frodo Baggins (Glow Chase)",
       "description": "Frodo Baggins (Glow Chase) Limited Edition",
-      "number": 444,
+      "number": 4,
       "link": "",
-      "image": "pops/Frodo_GlowChase.webp",
-      "category": "LotR"
+      "image": "/pops/Frodo_GlowChase.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Samwise Gamgee",
       "description": "Samwise Gamgee",
-      "number": 445,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-lotr-hobbit-samwise-gamgee",
-      "image": "pops/SamwiseGamgee.webp",
-      "category": "LotR"
+      "number": 5,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-samwise-gamgee",
+      "image": "/pops/SamwiseGamgee.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Nazgul",
       "description": "Nazgul",
-      "number": 446,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-lotr-hobbit-nazgul",
-      "image": "pops/Nazgul.webp",
-      "category": "LotR"
+      "number": 6,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-nazgul",
+      "image": "/pops/Nazgul.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Balrog",
       "description": "Balrog",
-      "number": 448,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-6-lotr-hobbit-balrog",
-      "image": "pops/Balrog.webp",
-      "category": "LotR"
+      "number": 7,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-6-El Señor de los Anillos-hobbit-balrog",
+      "image": "/pops/Balrog.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Pippin Took",
       "description": "Pippin Took",
-      "number": 530,
+      "number": 8,
       "link": "https://www.zavvi.com/merch-figures/the-lord-of-the-rings-pippin-took-funko-pop-vinyl/11564430.html",
-      "image": "pops/PippinTook.webp",
-      "category": "LotR"
+      "image": "/pops/PippinTook.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Treebeard",
       "description": "Treebeard",
-      "number": 529,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-6-lotr-hobbit-s3-treebeard",
-      "image": "pops/TreeBeard.webp",
-      "category": "LotR"
+      "number": 9,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-6-El Señor de los Anillos-hobbit-s3-treebeard",
+      "image": "/pops/TreeBeard.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Aragorn",
       "description": "Aragorn",
-      "number": 531,
-      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-lotr-hobbit-s3-aragorn",
-      "image": "pops/Aragorn.webp",
-      "category": "LotR"
+      "number": 10,
+      "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-s3-aragorn",
+      "image": "/pops/Aragorn.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Gollum",
       "description": "Gollum",
-      "number": 532,
-      "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/pop-movies-lotr-hobbit-s3-gollum-w-chase",
-      "image": "pops/Gollum.webp",
-      "category": "LotR"
+      "number": 11,
+      "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/pop-movies-El Señor de los Anillos-hobbit-s3-gollum-w-chase",
+      "image": "/pops/Gollum.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Boromir",
       "description": "Boromir",
-      "number": 630,
+      "number": 12,
       "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/boromir-1",
-      "image": "pops/Boromir.webp",
-      "category": "LotR"
+      "image": "/pops/Boromir.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Galadriel",
       "description": "Galadriel",
-      "number": 631,
+      "number": 13,
       "link": "https://www.funko.com/products/movies/pop/lord-of-the-rings/galadriel-1",
-      "image": "pops/Galadriel.webp",
-      "category": "LotR"
+      "image": "/pops/Galadriel.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Dunharrow King",
       "description": "Dunharrow King",
-      "number": 633,
+      "number": 14,
       "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/dunharrow-king",
-      "image": "pops/DunharrowKing.webp",
-      "category": "LotR"
+      "image": "/pops/DunharrowKing.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Galadriel (Tempted)",
       "description": "Galadriel (Tempted)",
-      "number": 634,
+      "number": 15,
       "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/galadriel-tempted",
-      "image": "pops/Galadriel_Tempted.webp",
-      "category": "LotR"
+      "image": "/pops/Galadriel_Tempted.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Gandalf the White",
       "description": "Gandalf the White",
-      "number": 845,
+      "number": 16,
       "link": "https://www.funko.com/products/movies/pop/the-lord-of-the-rings/gandalf-the-white",
-      "image": "pops/GandalfWhite.webp",
-      "category": "LotR"
+      "image": "/pops/GandalfWhite.webp",
+      "category": "El Señor de los Anillos"
     },
     {
       "name": "Farva",
       "description": "Trooper Rodney 'Rod' Farva",
-      "number": 583,
+      "number": 17,
       "link": "https://www.funko.com/products/movies/pop/super-troopers/trooper-rodney-rod-farva",
-      "image": "pops/Farva.webp",
+      "image": "/pops/Farva.webp",
       "category": "Super Troopers"
     },
     {
       "name": "Mac",
       "description": "Trooper MacIntyre 'Mac' Womack",
-      "number": 582,
+      "number": 18,
       "link": "https://www.funko.com/products/movies/pop/super-troopers/trooper-mac-intyre-mac-womack",
-      "image": "pops/Mac.webp",
+      "image": "/pops/Mac.webp",
       "category": "Super Troopers"
     },
     {
       "name": "Ramathorn",
       "description": "Trooper Arcot 'Thorny' Ramathorn",
-      "number": 581,
+      "number": 19,
       "link": "https://www.funko.com/products/movies/pop/super-troopers/trooper-arcot-thorny-ramathorn",
-      "image": "pops/Ramathorn.webp",
+      "image": "/pops/Ramathorn.webp",
       "category": "Super Troopers"
     },
     {
       "name": "Rabbit",
       "description": "Rabbit",
-      "number": 768,
+      "number": 20,
       "link": "https://www.funko.com/products/movies/pop/super-troopers/rabbit-1",
-      "image": "pops/Rabbit.webp",
+      "image": "/pops/Rabbit.webp",
       "category": "Super Troopers"
     },
     {
       "name": "Foster",
       "description": "Foster",
-      "number": 767,
+      "number": 21,
       "link": "https://www.funko.com/products/movies/pop/super-troopers/foster",
-      "image": "pops/Foster.webp",
+      "image": "/pops/Foster.webp",
       "category": "Super Troopers"
     },
     {
       "name": "Dr. Peter Venkman (Special Edition)",
       "description": "Dr. Peter Venkman (Special Edition) with Tee",
-      "number": 744,
+      "number": 22,
       "link": "https://ghostbustersnews.com/2019/07/17/sdcc-exclusive-ghostbusters-funko-pop-shirt-bundle-coming-to-gamestop/",
-      "image": "pops/PeterVenkman.webp",
+      "image": "/pops/PeterVenkman.webp",
       "category": "GhostBusters"
     },
     {
       "name": "Dr. Raymond Stantz",
       "description": "Dr. Raymond Stantz",
-      "number": 745,
+      "number": 23,
       "link": "https://www.funko.com/products/movies/pop/ghostbusters/dr-raymond-stantz-2",
-      "image": "pops/RaymondStantz.webp",
+      "image": "/pops/RaymondStantz.webp",
       "category": "GhostBusters"
     },
     {
       "name": "Dr. Egon Spengler",
       "description": "Dr. Egon Spengler",
-      "number": 743,
+      "number": 24,
       "link": "https://www.funko.com/products/movies/pop/ghostbusters/dr-egon-spengler-4",
-      "image": "pops/EgonSpengler.webp",
+      "image": "/pops/EgonSpengler.webp",
       "category": "GhostBusters"
     },
     {
       "name": "Winston Zeddemore",
       "description": "Winston Zeddemore",
-      "number": 746,
+      "number": 25,
       "link": "https://www.funko.com/products/movies/pop/ghostbusters/winston-zeddemore-2",
-      "image": "pops/WinstonZeddemore.webp",
+      "image": "/pops/WinstonZeddemore.webp",
       "category": "GhostBusters"
     },
     {
       "name": "Sub-Zero",
       "description": "Sub-Zero",
-      "number": 251,
+      "number": 26,
       "link": "https://www.funko.com/products/movies/pop/mortal-kombat/pop-games-mortal-kombat-subzero",
-      "image": "pops/SubZero.webp",
+      "image": "/pops/SubZero.webp",
       "category": "Mortal Kombat"
     },
     {
       "name": "Liu Kang",
       "description": "Liu Kang",
-      "number": 252,
+      "number": 27,
       "link": "https://www.funko.com/products/movies/pop/mortal-kombat/pop-games-mortal-kombat-liu-kang",
-      "image": "pops/Liu.webp",
+      "image": "/pops/Liu.webp",
       "category": "Mortal Kombat"
     },
     {
       "name": "Raiden",
       "description": "Raiden",
-      "number": 254,
+      "number": 28,
       "link": "https://www.funko.com/products/movies/pop/mortal-kombat/pop-games-mortal-kombat-raiden",
-      "image": "pops/Raiden.webp",
+      "image": "/pops/Raiden.webp",
       "category": "Mortal Kombat"
     },
     {
       "name": "Scorpion",
       "description": "Scorpion",
-      "number": 250,
+      "number": 29,
       "link": "https://www.funko.com/products/movies/pop/mortal-kombat/pop-games-mortal-kombat-scorpion",
-      "image": "pops/Scorpion.webp",
+      "image": "/pops/Scorpion.webp",
       "category": "Mortal Kombat"
     },
     {
       "name": "Kitana",
       "description": "Kitana",
-      "number": 253,
+      "number": 30,
       "link": "https://www.funko.com/products/all/all/product/pop-games-mortal-kombat-kitana",
-      "image": "pops/Kitana.webp",
+      "image": "/pops/Kitana.webp",
       "category": "Mortal Kombat"
     },
     {
       "name": "Black Knight",
       "description": "Black Knight",
-      "number": 200,
+      "number": 31,
       "link": "https://www.funko.com/products/movies/pop/monty-python/pop-movies-mphg-black-knight",
-      "image": "pops/BlackKnight.webp",
+      "image": "/pops/BlackKnight.webp",
       "category": "Monty Pyton"
     },
     {
       "name": "Tim the Enchanter",
       "description": "Tim the Enchanter",
-      "number": 201,
+      "number": 32,
       "link": "https://www.funko.com/products/movies/pop/monty-python/tim-the-enchanter",
-      "image": "pops/Tim.webp",
+      "image": "/pops/Tim.webp",
       "category": "Monty Pyton"
     },
     {
       "name": "French Taunter",
       "description": "French Taunter",
-      "number": 199,
+      "number": 33,
       "link": "https://www.funko.com/products/movies/pop/monty-python/french-taunter",
-      "image": "pops/FrenchTaunter.webp",
+      "image": "/pops/FrenchTaunter.webp",
       "category": "Monty Pyton"
     },
     {
       "name": "Black Knight (Missing Arms)",
       "description": "Black Knight (Missing Arms)",
-      "number": 246,
+      "number": 34,
       "link": "https://www.funko.com/products/movies/pop/monty-python/pop-movies-mphg-black-knight-missing-arms",
-      "image": "pops/BlackKnightFLESHWOUND.webp",
+      "image": "/pops/BlackKnightFLESHWOUND.webp",
       "category": "Monty Pyton"
     },
     {
       "name": "Dr. Emmett Brown",
       "description": "Dr. Emmett Brown",
-      "number": 62,
+      "number": 35,
       "link": "https://www.funko.com/products/movies/pop/back-to-the-future/pop-movie-back-to-the-future-doc",
-      "image": "pops/DocBrown.webp",
+      "image": "/pops/DocBrown.webp",
       "category": "Back to the Future"
     },
     {
       "name": "Marty McFly",
       "description": "Marty McFly",
-      "number": 49,
+      "number": 36,
       "link": "https://www.funko.com/products/movies/pop/back-to-the-future/pop-movie-back-to-the-future-marty",
-      "image": "pops/McFly.webp",
+      "image": "/pops/McFly.webp",
       "category": "Back to the Future"
     },
     {
       "name": "Jon Snow",
       "description": "Jon Snow",
-      "number": 7,
+      "number": 37,
       "link": "https://www.funko.com/products/television/pop/game-of-thrones/pop-got-jon-snow",
-      "image": "pops/JonSnow.webp",
+      "image": "/pops/JonSnow.webp",
       "category": "Game of Thrones"
     },
     {
       "name": "Drogon",
       "description": "Drogon",
-      "number": 16,
+      "number": 38,
       "link": "https://www.funko.com/products/television/pop/game-of-thrones/pop-game-of-thrones-drogon",
-      "image": "pops/Drogon.webp",
+      "image": "/pops/Drogon.webp",
       "category": "Game of Thrones"
     },
     {
       "name": "Poison Ivy",
       "description": "Poison Ivy",
-      "number": 224,
+      "number": 39,
       "link": "https://www.funko.com/products/heroes/pop/dc-comics/pop-heroes-dc-bombshells-w2-poison-ivy",
-      "image": "pops/PoisonIvy.webp",
+      "image": "/pops/PoisonIvy.webp",
       "category": "DC Comics Bombshells"
     },
     {
       "name": "Maleficent",
       "description": "Maleficent",
-      "number": 224,
+      "number": 40,
       "link": "https://www.funko.com/products/movies/pop/maleficent/pop-disney-series-1-maleficent",
-      "image": "pops/Maleficent.webp",
+      "image": "/pops/Maleficent.webp",
       "category": "Disney"
     },
     {
       "name": "Rick Deckard",
       "description": "Rick Deckard",
-      "number": 1032,
+      "number": 41,
       "link": "https://www.funko.com/shop/details/movies-blade-runner-rick-deckard-pop",
-      "image": "pops/1032_BladeRunner_RickDeckard.webp",
+      "image": "/pops/1032_BladeRunner_RickDeckard.webp",
       "category": "Blade Runner"
     },
     {
       "name": "Rachael",
       "description": "Rachael",
-      "number": 1033,
+      "number": 42,
       "link": "https://www.funko.com/shop/details/movies-blade-runner-rachael-pop",
-      "image": "pops/1033_BladeRunner_Rachael.webp",
+      "image": "/pops/1033_BladeRunner_Rachael.webp",
       "category": "Blade Runner"
     },
     {
       "name": "Roy Batty",
       "description": "Roy Batty",
-      "number": 1034,
+      "number": 43,
       "link": "https://www.funko.com/shop/details/movies-blade-runner-roy-batty-pop",
-      "image": "pops/1034_BladeRunner_RoyBatty.webp",
+      "image": "/pops/1034_BladeRunner_RoyBatty.webp",
       "category": "Blade Runner"
     },
     {
       "name": "Pris",
       "description": "Pris",
-      "number": 1035,
+      "number": 44,
       "link": "https://www.funko.com/shop/details/movies-blade-runner-pris-pop",
-      "image": "pops/1035_BladeRunner_Pris.webp",
+      "image": "/pops/1035_BladeRunner_Pris.webp",
       "category": "Blade Runner"
     },
     {
       "name": "Deckard",
       "description": "Deckard",
-      "number": 477,
+      "number": 45,
       "link": "https://www.funko.com/products/movies/pop/blade-runner-2049/pop-movies-blade-runner-2049-deckard",
-      "image": "pops/Deckard.webp",
+      "image": "/pops/Deckard.webp",
       "category": "Blade Runner 2049"
     },
     {
       "name": "Officer K",
       "description": "Officer K",
-      "number": 476,
+      "number": 46,
       "link": "https://www.funko.com/products/movies/pop/blade-runner-2049/pop-movies-blade-runner-2049-officer-k",
-      "image": "pops/OfficerK.webp",
+      "image": "/pops/OfficerK.webp",
       "category": "Blade Runner 2049"
     },
     {
       "name": "Wallace",
       "description": "Wallace",
-      "number": 478,
+      "number": 47,
       "link": "https://www.funko.com/products/movies/pop/blade-runner-2049/pop-movies-blade-runner-2049-wallace",
-      "image": "pops/Wallace.webp",
+      "image": "/pops/Wallace.webp",
       "category": "Blade Runner 2049"
     },
     {
       "name": "Sapper",
       "description": "Sapper",
-      "number": 480,
+      "number": 48,
       "link": "https://www.funko.com/products/movies/pop/blade-runner-2049/pop-movies-blade-runner-2049-sapper-w-chase",
-      "image": "pops/Sapper.webp",
+      "image": "/pops/Sapper.webp",
       "category": "Blade Runner 2049"
     },
     {
       "name": "Bill Lumbergh",
       "description": "Bill Lumbergh",
-      "number": 712,
+      "number": 49,
       "link": "https://www.funko.com/products/movies/pop/office-space/bill-lumbergh",
-      "image": "pops/BillLumbergh.webp",
+      "image": "/pops/BillLumbergh.webp",
       "category": "OfficeSpace"
     },
     {
       "name": "Darth Vader",
       "description": "Darth Vader (Lidl Exclusive)",
-      "number": 157,
+      "number": 50,
       "link": "https://www.funko.com/products/movies/pop/star-wars/darth-vader-14",
-      "image": "pops/DarthVader.webp",
+      "image": "/pops/DarthVader.webp",
       "category": "Star Wars"
     },
     {
       "name": "Darth Vader",
       "description": "Darth Vader (Electrocuted)",
-      "number": 288,
+      "number": 51,
       "link": "https://funkoeurope.com/products/electrocuted-vader-star-wars",
-      "image": "pops/DarthVaderElectrocuted.webp",
+      "image": "/pops/DarthVaderElectrocuted.webp",
       "category": "Star Wars"
     },
     {
       "name": "Gambit",
       "description": "Gambit with Cards",
-      "number": 553,
+      "number": 52,
       "link": "https://www.funko.com/products/heroes/pop/x-men/gambit-with-cards",
-      "image": "pops/Gambit.webp",
+      "image": "/pops/Gambit.webp",
       "category": "X-Men"
     },
     {
       "name": "Gambit",
       "description": "Gambit with Bo Staff",
-      "number": 554,
+      "number": 53,
       "link": "",
-      "image": "pops/gambit_staff.webp",
+      "image": "/pops/gambit_staff.webp",
       "category": "X-Men"
     },
     {
       "name": "Neo",
       "description": "2021",
-      "number": 1172,
+      "number": 54,
       "link": "https://funkoeurope.com/products/neo-matrix-2021",
-      "image": "pops/Neo.webp",
-      "category": "The Matrix"
-    },
-    {
-      "name": "Morpheus",
-      "description": "2021",
-      "number": 1174,
-      "link": "https://funkoeurope.com/products/morpheus-matrix-2021",
-      "image": "pops/Morpheus.webp",
+      "image": "/pops/Neo.webp",
       "category": "The Matrix"
     },
     {
       "name": "Morpheus",
       "description": "2021 (Only at Target)",
-      "number": 1175,
+      "number": 55,
       "link": "",
-      "image": "pops/Morpheus-1175.webp",
+      "image": "/pops/Morpheus-1175.webp",
       "category": "The Matrix"
     },
     {
       "name": "The Analyst",
       "description": "2021 (Walmart Exclusive)",
-      "number": 1176,
+      "number": 56,
       "link": "https://funkoeurope.com/products/morpheus-matrix-2021",
-      "image": "pops/TheAnalyst-1176.webp",
+      "image": "/pops/TheAnalyst-1176.webp",
       "category": "The Matrix"
     }
 ]

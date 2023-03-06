@@ -11,14 +11,15 @@ nav img {
 nav svg {
   width: 35px;
 }
-nav a.nav-link {
+nav a {
   font-size: 1.3em;
   margin: 0px 10px;
   transition: 0.5s;
   font-weight: bold;
   color: white;
+  text-decoration: none;
 }
-nav a.nav-link:hover {
+nav a:hover {
   font-size: 1.5em;
   color: white;
 }
@@ -30,21 +31,23 @@ nav a.nav-link:hover {
   align-items: center;
   flex-wrap: nowrap;
   background-image: url("../img/greenBg.webp");
-  min-height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20vh;
 }
 #TitleContainer h1 {
-  font-size: 3em;
+  font-size: 4.5vw;
   color: white;
 }
 #TitleContainer img {
-  width: 400px;
+  width: 30vw;
   margin: 15px 0px;
 }
 
 #cell1, #cell2, #cell3 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -59,4 +62,81 @@ nav a.nav-link:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  text-align: center;
+  padding: 25px;
+}
+
+.cCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  margin: 5px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+.cCard img {
+  padding: 10px;
+  width: 95%;
+}
+.cCard button {
+  margin: 15px 0px;
+}
+.cCard h2 {
+  font-size: 1.5em;
+  cursor: default;
+}
+.cCard h3 {
+  font-size: 1.2em;
+}
+
+.cCard:hover {
+  box-shadow: 8px 8px 0px 0px rgb(57, 179, 75);
+  transform: scale(1.05) translate(-8px, -8px);
+}
+
+#productDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+#productDetail img {
+  width: 100%;
+}
+#productDetail h2 {
+  font-size: 3.5vw;
+}
+#productDetail h3 {
+  font-size: 3vw;
+}
+#productDetail #searchButton {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 2.2vw;
+  transition: 0.3s;
+}
+#productDetail #searchButton:hover {
+  box-shadow: 5px 5px 0px 0px rgb(57, 179, 75);
+  transform: scale(1.05) translate(-8px, -8px);
 }/*# sourceMappingURL=main.css.map */

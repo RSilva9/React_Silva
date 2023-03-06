@@ -8,41 +8,38 @@ function PictureCarousel(){
 
     useEffect(()=>{
         const imagenes = []
-        for(let i=0; i<12; i++){
-            imagenes.push(data[i].image)
-        }
+        data.forEach(d=>{
+            imagenes.push(d.image)
+        })
         setImage(imagenes)
     }, []);
 
     return (
-        <Carousel>
+        <Carousel controls={false} indicators={false} interval={2500}>
           <Carousel.Item>
-          <section className="d-flex flex-column flex-md-row align-items-center" id="prodRow">
+            <section className="d-flex align-items-center">
                 <div id="cell1">
                     <img src={popImage[0]} alt="First"/>
-                    <img src={popImage[1]} alt="Second"/>
-                    <img src={popImage[2]} alt="Third"/>
-                    <img src={popImage[3]} alt="Fourth"/>
-                </div>
-            </section>
-          </Carousel.Item>
-          <Carousel.Item>
-            <section className="d-flex flex-column flex-md-row align-items-center" id="prodRow">
-                <div id="cell2">
-                    <img src={popImage[4]} alt="First"/>
                     <img src={popImage[5]} alt="Second"/>
-                    <img src={popImage[6]} alt="Third"/>
-                    <img src={popImage[7]} alt="Fourth"/>
+                    <img src={popImage[8]} alt="Third"/>
                 </div>
             </section>
           </Carousel.Item>
           <Carousel.Item>
-          <section className="d-flex flex-column flex-md-row align-items-center" id="prodRow">
+            <section className="d-flex align-items-center">
+                <div id="cell2">
+                    <img src={popImage[12]} alt="First"/>
+                    <img src={popImage[17]} alt="Second"/>
+                    <img src={popImage[24]} alt="Third"/>
+                </div>
+            </section>
+          </Carousel.Item>
+          <Carousel.Item>
+            <section className="d-flex align-items-center">
                 <div id="cell3">
-                    <img src={popImage[8]} alt="First"/>
-                    <img src={popImage[9]} alt="Second"/>
-                    <img src={popImage[10]} alt="Third"/>
-                    <img src={popImage[11]} alt="Fourth"/>
+                    <img src={popImage[6]} alt="First"/>
+                    <img src={popImage[7]} alt="Second"/>
+                    <img src={popImage[8]} alt="Third"/>
                 </div>
             </section>
           </Carousel.Item>

@@ -8,7 +8,7 @@ function TitleContainer(){
 
     useEffect(()=>{
         data.forEach(i=>{
-            if(i.image == "pops/DarthVader.webp"){
+            if(i.image == "/pops/DarthVader.webp"){
                 setImage(i.image)
             }
         })

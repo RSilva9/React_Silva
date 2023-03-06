@@ -2,21 +2,22 @@ import React from 'react';
 import CartWidget from './CartWidget';
 import logo from '../img/logo.webp';
 import {Container, Nav, Navbar} from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 function RNavBar() {
 
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Link to="/">
           <img src={logo}></img>
-        </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Inicio</Nav.Link>
-            <Nav.Link href="#">Catálogo</Nav.Link>
-            <Nav.Link href="#">Contacto</Nav.Link>
+            <Link to="/">Inicio</Link>
+            <Link to="/catalogo">Catálogo</Link>
+            <Link to="#">Contacto</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

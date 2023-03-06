@@ -13,14 +13,15 @@ nav{
     svg{
         width: 35px;
     }
-    a.nav-link{
+    a{
         font-size: 1.3em;
         margin: 0px 10px;
         transition: 0.5s;
         font-weight: bold;
         color: white;
+        text-decoration: none;
     }
-    a.nav-link:hover{
+    a:hover{
         font-size: 1.5em;
         color: white;
     }
