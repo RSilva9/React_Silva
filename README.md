@@ -16,7 +16,7 @@ Updates:
   - Carousel actualizado.
   - Franja con imagen agregada.
   
-**04/03/23** SEGUNDA PREENTREGA
+**05/03/23** SEGUNDA PREENTREGA
   - ItemListContainer actualizado (ahora contiene todos los productos).
   - ItemDetailContainer agregado.
   - Carousel terminado.
