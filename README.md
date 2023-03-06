@@ -5,7 +5,7 @@ Updates:
 **08/02/23**
   - Proyecto inicializado (create-react-app)
 
-**17/02/23* PRIMERA PREENTREGA
+**17/02/23** PRIMERA PREENTREGA
   - Elementos CartWidget, Navbar e ItemListContainer creados.
 
 **02/03/23**
