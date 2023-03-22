@@ -64,10 +64,6 @@ nav a:hover {
   flex-wrap: nowrap;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
 #productGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -75,6 +71,78 @@ nav a:hover {
   grid-gap: 1rem;
   text-align: center;
   padding: 25px;
+}
+
+#productDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+#productDetail img {
+  width: 50vw;
+}
+#productDetail h2 {
+  font-size: 3.5vw;
+}
+#productDetail h3 {
+  font-size: 3vw;
+}
+
+#containerNavBar {
+  background-color: rgb(33, 33, 33);
+}
+#containerNavBar a:hover {
+  font-size: 1.4em;
+  color: white;
+}
+
+#itemCount {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+#itemCount #buttonResta, #itemCount #buttonSuma {
+  background-color: rgb(179, 57, 57);
+  width: 30px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-self: center;
+}
+#itemCount #buttonSuma {
+  background-color: rgb(57, 179, 75);
+}
+#itemCount h3 {
+  text-align: center;
+  margin: 0px;
+}
+#itemCount .searchButton {
+  font-size: 1.5vw;
+}
+
+.searchButton {
+  background-color: black;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 2.2vw;
+  transition: 0.3s;
+}
+
+.searchButton:hover {
+  box-shadow: 5px 5px 0px 0px rgb(57, 179, 75);
+  transform: scale(1.05) translate(-8px, -8px);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .cCard {
@@ -107,36 +175,5 @@ nav a:hover {
 
 .cCard:hover {
   box-shadow: 8px 8px 0px 0px rgb(57, 179, 75);
-  transform: scale(1.05) translate(-8px, -8px);
-}
-
-#productDetail {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding: 30px;
-}
-#productDetail img {
-  width: 100%;
-}
-#productDetail h2 {
-  font-size: 3.5vw;
-}
-#productDetail h3 {
-  font-size: 3vw;
-}
-#productDetail #searchButton {
-  background-color: black;
-  padding: 10px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: white;
-  font-size: 2.2vw;
-  transition: 0.3s;
-}
-#productDetail #searchButton:hover {
-  box-shadow: 5px 5px 0px 0px rgb(57, 179, 75);
   transform: scale(1.05) translate(-8px, -8px);
 }/*# sourceMappingURL=main.css.map */

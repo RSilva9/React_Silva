@@ -28,10 +28,6 @@
     }
 }
 
-.navbar-light .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
 #productGrid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -39,6 +35,80 @@
     grid-gap: 1rem;
     text-align: center;
     padding: 25px;
+}
+
+#productDetail{
+    @include flex(row, center, center, nowrap);
+    padding: 30px;
+    img{
+        width: 50vw;
+    }
+    h2{
+        font-size: 3.5vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+}
+
+#containerNavBar{
+    background-color: rgb(33, 33, 33);
+
+    a:hover{
+        font-size: 1.4em;
+        color: white;
+    }
+}
+
+#itemCount{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+    #buttonResta{
+        background-color: rgb(179, 57, 57);
+        width: 30px;
+        margin: 0px 10px;
+        border-radius: 10px;
+        height: fit-content;
+        align-self: center
+    }
+    
+    #buttonSuma{
+        @extend #buttonResta;
+        background-color: rgba(57, 179, 75, 1);
+    }
+
+    h3{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .searchButton{
+        font-size: 1.5vw;
+    }
+}
+
+
+
+.searchButton{
+    background-color: black;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 2.2vw;
+    transition: 0.3s;
+}
+
+.searchButton:hover{
+    box-shadow: 5px 5px 0px 0px rgba(57, 179, 75, 1);
+    transform: scale(1.05) translate(-8px, -8px);
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .cCard{
@@ -69,32 +139,4 @@
 .cCard:hover{
     box-shadow: 8px 8px 0px 0px rgba(57, 179, 75, 1);
     transform: scale(1.05) translate(-8px, -8px);
-}
-
-#productDetail{
-    @include flex(row, center, center, nowrap);
-    padding: 30px;
-    img{
-        width: 100%;
-    }
-    h2{
-        font-size: 3.5vw;
-    }
-    h3{
-        font-size: 3vw;
-    }
-
-    #searchButton{
-        background-color: black;
-        padding: 10px;
-        border-radius: 10px;
-        text-decoration: none;
-        color: white;
-        font-size: 2.2vw;
-        transition: 0.3s;
-    }
-    #searchButton:hover{
-        box-shadow: 5px 5px 0px 0px rgba(57, 179, 75, 1);
-        transform: scale(1.05) translate(-8px, -8px);
-    }
 }
