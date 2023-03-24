@@ -17,7 +17,7 @@ function ContainerNavBar() {
         <div className='d-flex justify-content-around flex-wrap'>
         {
             categorias.map(item=>(
-                <Link to={`/catalogo/${item}`}>{item}</Link>
+                <Link to={`/catalogo/${item}`} key={item}>{item}</Link>
             ))
         }
         </div>

@@ -1,0 +1,48 @@
+@media (max-width: 992px){
+    #productDetail{
+        @include flex(column, center, center, nowrap);
+
+        #productDetailInfo{
+            @include flex(row, space-around, center, nowrap);
+            width: 100vw;
+        }
+
+        h3, h4{
+            text-align: center;
+        }
+
+        #productDetailButtons{
+            @include flex(row, space-around, center, nowrap);
+        }
+    }
+    
+    #itemCount{
+        .searchButton{
+            font-size: 1.2em;
+        }
+        @include flex(column, flex-start, center, nowrap);
+    }
+}
+
+@media (max-width: 800px){
+    .longCard{
+        #infoLongCard{
+            h2{
+                font-size: 1em;
+            }
+            h3{
+                font-size: 1.5em;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 425px){
+    #productDetail{
+        h2{
+            font-size: 25px;
+        }
+    }
+}
+

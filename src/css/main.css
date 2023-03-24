@@ -79,16 +79,27 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 30px;
 }
 #productDetail img {
-  width: 50vw;
+  width: 55vw;
 }
-#productDetail h2 {
-  font-size: 3.5vw;
+#productDetail h2, #productDetail p {
+  font-size: 30px;
 }
 #productDetail h3 {
-  font-size: 3vw;
+  font-size: 25px;
+  color: rgb(57, 179, 75);
+}
+#productDetail h4 {
+  color: rgb(57, 179, 75);
+  font-size: 40px;
+}
+#productDetail #productDetailButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
 #containerNavBar {
@@ -102,6 +113,9 @@ nav a:hover {
 #itemCount {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
   margin-top: 15px;
 }
 #itemCount #buttonResta, #itemCount #buttonSuma {
@@ -116,12 +130,12 @@ nav a:hover {
 #itemCount #buttonSuma {
   background-color: rgb(57, 179, 75);
 }
-#itemCount h3 {
+#itemCount p {
   text-align: center;
   margin: 0px;
 }
 #itemCount .searchButton {
-  font-size: 1.5vw;
+  font-size: 1.2em;
 }
 
 .searchButton {
@@ -132,13 +146,13 @@ nav a:hover {
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  font-size: 2.2vw;
+  font-size: 1.3em;
   transition: 0.3s;
 }
 
 .searchButton:hover {
   box-shadow: 5px 5px 0px 0px rgb(57, 179, 75);
-  transform: scale(1.05) translate(-8px, -8px);
+  transform: scale(1.05) translate(-2px, -2px);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -176,4 +190,91 @@ nav a:hover {
 .cCard:hover {
   box-shadow: 8px 8px 0px 0px rgb(57, 179, 75);
   transform: scale(1.05) translate(-8px, -8px);
+}
+
+.longCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 15px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0px 0px rgb(57, 179, 75);
+}
+.longCard img {
+  max-width: 25%;
+  margin-right: 15px;
+}
+.longCard .searchButton svg {
+  width: 20px;
+}
+.longCard #infoLongCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+}
+.longCard #infoLongCard h2 {
+  font-size: 1.5em;
+  color: rgb(57, 179, 75);
+}
+.longCard #infoLongCard h3 {
+  font-size: 1.9em;
+}
+
+@media (max-width: 992px) {
+  #productDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #productDetail #productDetailInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100vw;
+  }
+  #productDetail h3, #productDetail h4 {
+    text-align: center;
+  }
+  #productDetail #productDetailButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #itemCount {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #itemCount .searchButton {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 800px) {
+  .longCard #infoLongCard h2 {
+    font-size: 1em;
+  }
+  .longCard #infoLongCard h3 {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 425px) {
+  #productDetail h2 {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=main.css.map */

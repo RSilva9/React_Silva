@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, React } from "react";
 import data from "../json/funkoPop.json"
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -34,19 +33,24 @@ function ItemDetailContainer(){
     
     return(
         <div id="productDetail">
-            <div className="w-50">
+            <div>
                 <img src={prodSelected.image}></img>
             </div>
-            <div className="w-50 ms-5">
-                <div>
-                    <h2>Nombre:</h2>
-                    <h3>{prodSelected.name}</h3>
+            <div>
+                <div id="productDetailInfo">
+                    <div>
+                        <h3>Nombre:</h3>
+                        <h2>{prodSelected.name}</h2>
+                    </div>
+                    <div className="my-4">
+                        <h3>Colección:</h3>
+                        <h2>{prodSelected.category}</h2>
+                    </div>
                 </div>
                 <div className="my-5">
-                    <h2>Colección:</h2>
-                    <h3>{prodSelected.category}</h3>
+                    <h4>${prodSelected.price}</h4>
                 </div>
-                <div className="d-flex flex-column">
+                <div id="productDetailButtons">
                     <Link to={"https://www.funko.com/search/?q=" + prodSelected.name} target="_blank">
                         <button className="searchButton">
                             Buscar en sitio oficial

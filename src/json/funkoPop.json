@@ -4,391 +4,447 @@
       "description": "Gandalf on Gwaihir",
       "number": 1,
       "image": "/pops/Gandalf_Gwaihir.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2750
     },
     {
       "name": "Gandalf",
       "description": "Gandalf",
       "number": 2,
       "image": "/pops/Gandalf.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Frodo Baggins",
       "description": "Frodo Baggins",
       "number": 3,
       "image": "/pops/Frodo.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Frodo Baggins (Glow Chase)",
       "description": "Frodo Baggins (Glow Chase) Limited Edition",
       "number": 4,
       "image": "/pops/Frodo_GlowChase.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2700
     },
     {
       "name": "Samwise Gamgee",
       "description": "Samwise Gamgee",
       "number": 5,
       "image": "/pops/SamwiseGamgee.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Nazgul",
       "description": "Nazgul",
       "number": 6,
       "image": "/pops/Nazgul.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Balrog",
       "description": "Balrog",
       "number": 7,
       "image": "/pops/Balrog.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Pippin Took",
       "description": "Pippin Took",
       "number": 8,
       "image": "/pops/PippinTook.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Treebeard",
       "description": "Treebeard",
       "number": 9,
       "image": "/pops/TreeBeard.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Aragorn",
       "description": "Aragorn",
       "number": 10,
       "image": "/pops/Aragorn.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2700
     },
     {
       "name": "Gollum",
       "description": "Gollum",
       "number": 11,
       "image": "/pops/Gollum.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2900
     },
     {
       "name": "Boromir",
       "description": "Boromir",
       "number": 12,
       "image": "/pops/Boromir.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Galadriel",
       "description": "Galadriel",
       "number": 13,
       "image": "/pops/Galadriel.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Dunharrow King",
       "description": "Dunharrow King",
       "number": 14,
       "image": "/pops/DunharrowKing.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Galadriel (Tempted)",
       "description": "Galadriel (Tempted)",
       "number": 15,
       "image": "/pops/Galadriel_Tempted.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Gandalf the White",
       "description": "Gandalf the White",
       "number": 16,
       "image": "/pops/GandalfWhite.webp",
-      "category": "El Señor de los Anillos"
+      "category": "El Señor de los Anillos",
+      "price": 2600
     },
     {
       "name": "Farva",
       "description": "Trooper Rodney 'Rod' Farva",
       "number": 17,
       "image": "/pops/Farva.webp",
-      "category": "Super Troopers"
+      "category": "Super Troopers",
+      "price": 2600
     },
     {
       "name": "Mac",
       "description": "Trooper MacIntyre 'Mac' Womack",
       "number": 18,
       "image": "/pops/Mac.webp",
-      "category": "Super Troopers"
+      "category": "Super Troopers",
+      "price": 2600
     },
     {
       "name": "Ramathorn",
       "description": "Trooper Arcot 'Thorny' Ramathorn",
       "number": 19,
       "image": "/pops/Ramathorn.webp",
-      "category": "Super Troopers"
+      "category": "Super Troopers",
+      "price": 2600
     },
     {
       "name": "Rabbit",
       "description": "Rabbit",
       "number": 20,
       "image": "/pops/Rabbit.webp",
-      "category": "Super Troopers"
+      "category": "Super Troopers",
+      "price": 2600
     },
     {
       "name": "Foster",
       "description": "Foster",
       "number": 21,
       "image": "/pops/Foster.webp",
-      "category": "Super Troopers"
+      "category": "Super Troopers",
+      "price": 2600
     },
     {
       "name": "Dr. Peter Venkman (Special Edition)",
       "description": "Dr. Peter Venkman (Special Edition) with Tee",
       "number": 22,
       "image": "/pops/PeterVenkman.webp",
-      "category": "GhostBusters"
+      "category": "GhostBusters",
+      "price": 3000
     },
     {
       "name": "Dr. Raymond Stantz",
       "description": "Dr. Raymond Stantz",
       "number": 23,
       "image": "/pops/RaymondStantz.webp",
-      "category": "GhostBusters"
+      "category": "GhostBusters",
+      "price": 2600
     },
     {
       "name": "Dr. Egon Spengler",
       "description": "Dr. Egon Spengler",
       "number": 24,
       "image": "/pops/EgonSpengler.webp",
-      "category": "GhostBusters"
+      "category": "GhostBusters",
+      "price": 2600
     },
     {
       "name": "Winston Zeddemore",
       "description": "Winston Zeddemore",
       "number": 25,
       "image": "/pops/WinstonZeddemore.webp",
-      "category": "GhostBusters"
+      "category": "GhostBusters",
+      "price": 2600
     },
     {
       "name": "Sub-Zero",
       "description": "Sub-Zero",
       "number": 26,
       "image": "/pops/SubZero.webp",
-      "category": "Mortal Kombat"
+      "category": "Mortal Kombat",
+      "price": 2800
     },
     {
       "name": "Liu Kang",
       "description": "Liu Kang",
       "number": 27,
       "image": "/pops/Liu.webp",
-      "category": "Mortal Kombat"
+      "category": "Mortal Kombat",
+      "price": 2800
     },
     {
       "name": "Raiden",
       "description": "Raiden",
       "number": 28,
       "image": "/pops/Raiden.webp",
-      "category": "Mortal Kombat"
+      "category": "Mortal Kombat",
+      "price": 2850
     },
     {
       "name": "Scorpion",
       "description": "Scorpion",
       "number": 29,
       "image": "/pops/Scorpion.webp",
-      "category": "Mortal Kombat"
+      "category": "Mortal Kombat",
+      "price": 3100
     },
     {
       "name": "Kitana",
       "description": "Kitana",
       "number": 30,
       "image": "/pops/Kitana.webp",
-      "category": "Mortal Kombat"
+      "category": "Mortal Kombat",
+      "price": 2600
     },
     {
       "name": "Black Knight",
       "description": "Black Knight",
       "number": 31,
       "image": "/pops/BlackKnight.webp",
-      "category": "Monty Pyton"
+      "category": "Monty Pyton",
+      "price": 2600
     },
     {
       "name": "Tim the Enchanter",
       "description": "Tim the Enchanter",
       "number": 32,
       "image": "/pops/Tim.webp",
-      "category": "Monty Pyton"
+      "category": "Monty Pyton",
+      "price": 2600
     },
     {
       "name": "French Taunter",
       "description": "French Taunter",
       "number": 33,
       "image": "/pops/FrenchTaunter.webp",
-      "category": "Monty Pyton"
+      "category": "Monty Pyton",
+      "price": 2600
     },
     {
       "name": "Black Knight (Missing Arms)",
       "description": "Black Knight (Missing Arms)",
       "number": 34,
       "image": "/pops/BlackKnightFLESHWOUND.webp",
-      "category": "Monty Pyton"
+      "category": "Monty Pyton",
+      "price": 2600
     },
     {
       "name": "Dr. Emmett Brown",
       "description": "Dr. Emmett Brown",
       "number": 35,
       "image": "/pops/DocBrown.webp",
-      "category": "Back to the Future"
+      "category": "Back to the Future",
+      "price": 3000
     },
     {
       "name": "Marty McFly",
       "description": "Marty McFly",
       "number": 36,
       "image": "/pops/McFly.webp",
-      "category": "Back to the Future"
+      "category": "Back to the Future",
+      "price": 2950
     },
     {
       "name": "Jon Snow",
       "description": "Jon Snow",
       "number": 37,
       "image": "/pops/JonSnow.webp",
-      "category": "Game of Thrones"
+      "category": "Game of Thrones",
+      "price": 2600
     },
     {
       "name": "Drogon",
       "description": "Drogon",
       "number": 38,
       "image": "/pops/Drogon.webp",
-      "category": "Game of Thrones"
+      "category": "Game of Thrones",
+      "price": 2600
     },
     {
       "name": "Poison Ivy",
       "description": "Poison Ivy",
       "number": 39,
       "image": "/pops/PoisonIvy.webp",
-      "category": "DC Comics Bombshells"
+      "category": "DC Comics Bombshells",
+      "price": 2600
     },
     {
       "name": "Maleficent",
       "description": "Maleficent",
       "number": 40,
       "image": "/pops/Maleficent.webp",
-      "category": "Disney"
+      "category": "Disney",
+      "price": 2600
     },
     {
       "name": "Rick Deckard",
       "description": "Rick Deckard",
       "number": 41,
       "image": "/pops/1032_BladeRunner_RickDeckard.webp",
-      "category": "Blade Runner"
+      "category": "Blade Runner",
+      "price": 2600
     },
     {
       "name": "Rachael",
       "description": "Rachael",
       "number": 42,
       "image": "/pops/1033_BladeRunner_Rachael.webp",
-      "category": "Blade Runner"
+      "category": "Blade Runner",
+      "price": 2600
     },
     {
       "name": "Roy Batty",
       "description": "Roy Batty",
       "number": 43,
       "image": "/pops/1034_BladeRunner_RoyBatty.webp",
-      "category": "Blade Runner"
+      "category": "Blade Runner",
+      "price": 2600
     },
     {
       "name": "Pris",
       "description": "Pris",
       "number": 44,
       "image": "/pops/1035_BladeRunner_Pris.webp",
-      "category": "Blade Runner"
+      "category": "Blade Runner",
+      "price": 2600
     },
     {
       "name": "Deckard",
       "description": "Deckard",
       "number": 45,
       "image": "/pops/Deckard.webp",
-      "category": "Blade Runner 2049"
+      "category": "Blade Runner 2049",
+      "price": 2600
     },
     {
       "name": "Officer K",
       "description": "Officer K",
       "number": 46,
       "image": "/pops/OfficerK.webp",
-      "category": "Blade Runner 2049"
+      "category": "Blade Runner 2049",
+      "price": 2600
     },
     {
       "name": "Wallace",
       "description": "Wallace",
       "number": 47,
       "image": "/pops/Wallace.webp",
-      "category": "Blade Runner 2049"
+      "category": "Blade Runner 2049",
+      "price": 2600
     },
     {
       "name": "Sapper",
       "description": "Sapper",
       "number": 48,
       "image": "/pops/Sapper.webp",
-      "category": "Blade Runner 2049"
+      "category": "Blade Runner 2049",
+      "price": 2600
     },
     {
       "name": "Bill Lumbergh",
       "description": "Bill Lumbergh",
       "number": 49,
       "image": "/pops/BillLumbergh.webp",
-      "category": "OfficeSpace"
+      "category": "OfficeSpace",
+      "price": 2600
     },
     {
       "name": "Darth Vader",
       "description": "Darth Vader (Lidl Exclusive)",
       "number": 50,
       "image": "/pops/DarthVader.webp",
-      "category": "Star Wars"
+      "category": "Star Wars",
+      "price": 3200
     },
     {
       "name": "Darth Vader",
       "description": "Darth Vader (Electrocuted)",
       "number": 51,
       "image": "/pops/DarthVaderElectrocuted.webp",
-      "category": "Star Wars"
+      "category": "Star Wars",
+      "price": 3250
     },
     {
       "name": "Gambit",
       "description": "Gambit with Cards",
       "number": 52,
       "image": "/pops/Gambit.webp",
-      "category": "X-Men"
+      "category": "X-Men",
+      "price": 2600
     },
     {
       "name": "Gambit",
       "description": "Gambit with Bo Staff",
       "number": 53,
       "image": "/pops/gambit_staff.webp",
-      "category": "X-Men"
+      "category": "X-Men",
+      "price": 2600
     },
     {
       "name": "Neo",
       "description": "2021",
       "number": 54,
       "image": "/pops/Neo.webp",
-      "category": "The Matrix"
+      "category": "The Matrix",
+      "price": 3000
     },
     {
       "name": "Morpheus",
       "description": "2021 (Only at Target)",
       "number": 55,
       "image": "/pops/Morpheus-1175.webp",
-      "category": "The Matrix"
+      "category": "The Matrix",
+      "price": 2600
     },
     {
       "name": "The Analyst",
       "description": "2021 (Walmart Exclusive)",
       "number": 56,
       "image": "/pops/TheAnalyst-1176.webp",
-      "category": "The Matrix"
+      "category": "The Matrix",
+      "price": 2600
     }
 ]

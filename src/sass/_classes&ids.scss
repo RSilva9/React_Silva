@@ -39,15 +39,23 @@
 
 #productDetail{
     @include flex(row, center, center, nowrap);
-    padding: 30px;
     img{
-        width: 50vw;
+        width: 55vw;
     }
-    h2{
-        font-size: 3.5vw;
+    h2, p{
+        font-size: 30px;
     }
     h3{
-        font-size: 3vw;
+        font-size: 25px;
+        color: rgba(57, 179, 75, 1);
+    }
+    h4{
+        color:rgba(57, 179, 75, 1);
+        font-size: 40px;
+    }
+
+    #productDetailButtons{
+        @include flex(column, center, flex-start, nowrap);
     }
 }
 
@@ -61,8 +69,7 @@
 }
 
 #itemCount{
-    display: flex;
-    flex-direction: column;
+    @include flex(column, flex-start, flex-start, nowrap);
     margin-top: 15px;
 
     #buttonResta{
@@ -79,17 +86,15 @@
         background-color: rgba(57, 179, 75, 1);
     }
 
-    h3{
+    p{
         text-align: center;
         margin: 0px;
     }
 
     .searchButton{
-        font-size: 1.5vw;
+        font-size: 1.2em;
     }
 }
-
-
 
 .searchButton{
     background-color: black;
@@ -98,13 +103,13 @@
     border-radius: 10px;
     text-decoration: none;
     color: white;
-    font-size: 2.2vw;
+    font-size: 1.3em;
     transition: 0.3s;
 }
 
 .searchButton:hover{
     box-shadow: 5px 5px 0px 0px rgba(57, 179, 75, 1);
-    transform: scale(1.05) translate(-8px, -8px);
+    transform: scale(1.05) translate(-2px, -2px);
 }
 
 .navbar-light .navbar-toggler-icon{
@@ -139,4 +144,39 @@
 .cCard:hover{
     box-shadow: 8px 8px 0px 0px rgba(57, 179, 75, 1);
     transform: scale(1.05) translate(-8px, -8px);
+}
+
+.longCard{
+    @include flex(row, flex-start, center, nowrap);
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px 0px rgba(57, 179, 75, 1);
+
+    img{
+        max-width: 25%;
+        margin-right: 15px;
+    }
+
+    .searchButton{
+        svg{
+            width: 20px;
+        }
+    }
+
+    #infoLongCard{
+        @include flex(row, space-around, center, nowrap);
+        height: 100%;
+        width: 100%;
+
+        h2{
+            font-size: 1.5em;
+            color:rgba(57, 179, 75, 1);
+        }
+        h3{
+            font-size: 1.9em;
+        }
+    }
+
 }

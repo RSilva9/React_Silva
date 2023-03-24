@@ -26,7 +26,7 @@ function ItemListContainer(){
     return(
         <div id="productGrid">
             {prodArray.map((prod)=>(
-                <Link to={`../producto/${prod.number}`} className="cCard">
+                <Link to={`../producto/${prod.number}`} className="cCard" key={prod.number}>
                     <img src={prod.image} alt="..."></img>
                     <h2 className="mt-2">{prod.name}</h2>
                     <h3>{prod.category}</h3>

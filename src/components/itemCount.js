@@ -17,7 +17,7 @@ function ItemCount({addToCart}){
         <div id="itemCount">
             <div className="d-flex">
                 <button onClick={handleResta} id="buttonResta">-</button>
-                <h3>{count}</h3>
+                <p>{count}</p>
                 <button onClick={handleSuma} id="buttonSuma">+</button>
             </div>
             <button className="searchButton mt-2" onClick={()=> addToCart(count)}>

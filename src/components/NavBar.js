@@ -17,9 +17,10 @@ function RNavBar() {
           <Nav className="me-auto">
             <Link to="/">Inicio</Link>
             <Link to="/catalogo">Catálogo</Link>
-            <Link to="#">Contacto</Link>
           </Nav>
-          <CartWidget />
+          <Link to="../carrito">
+            <CartWidget />
+          </Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

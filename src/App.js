@@ -8,6 +8,7 @@ import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import ContainerNavBar from './components/CategoryNavBar';
 import { CartContextProvider } from './components/cartContext';
+import CartRender from './components/cartRender';
 
 function App() {
   return (
@@ -41,6 +42,12 @@ function App() {
             <Route path="producto/:numberProducto" element={
               <main>
                 <ItemDetailContainer />
+              </main>
+            }/>
+
+            <Route path="carrito" element={
+              <main>
+                <CartRender />
               </main>
             }/>
 
