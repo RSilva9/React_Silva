@@ -30,6 +30,28 @@ function CartRender(){
         }
 
         await newOrder(orderInfo)
+
+        MySwal.fire({
+            title: <p>¡Agradecemos tu compra!</p>,
+            html: (
+                <>
+                    <h4>Nombre: {nameRef.current.value}</h4>
+                    <h4>Correo: {emailRef.current.value}</h4>
+                    <h4>Teléfono: {phoneRef.current.value}</h4>
+                    <h2 style={{fontWeight: "bolder"}}>Resumen de tu compra:</h2>
+                    {cart.map(item=>{
+                        return(
+                            <h2 key={item.number}>{item.name} x{item.count} - ${item.price}</h2>
+                            
+                        )
+                    })}
+                    <h3 style={ { color: "rgba(57, 179, 75, 1)", marginTop: "15px"} }>Precio total: ${precioTotal}</h3>
+                </>
+            ),
+            confirmButtonColor: "rgba(57, 179, 75, 0.8)"
+        })
+
+        clearCart()
     }
     
     return(
@@ -89,42 +111,27 @@ function CartRender(){
                     <form>
                         <label>
                             Nombre:
-                            <input ref={nameRef} type="text" name="name" />
+                            <input ref={nameRef} type="text" name="name"/>
                         </label>
                         <label>
                             Correo:
-                            <input ref={emailRef} type="text" name="email" />
+                            <input ref={emailRef} type="text" name="email"/>
                         </label>
                         <label>
                             Teléfono:
-                            <input ref={phoneRef} type="text" name="phone" />
+                            <input ref={phoneRef} type="text" name="phone"/>
                         </label>
                         <button type="submit" className="searchButton" onClick={(evt)=>{
                             evt.preventDefault()
-
-                            handleOrder()
-
-                            MySwal.fire({
-                                title: <p>¡Agradecemos tu compra!</p>,
-                                html: (
-                                    <>
-                                        <h4>Nombre: {nameRef.current.value}</h4>
-                                        <h4>Correo: {emailRef.current.value}</h4>
-                                        <h4>Teléfono: {phoneRef.current.value}</h4>
-                                        <h2 style={{fontWeight: "bolder"}}>Resumen de tu compra:</h2>
-                                        {cart.map(item=>{
-                                            return(
-                                                <h2 key={item.number}>{item.name} x{item.count} - ${item.price}</h2>
-                                                
-                                            )
-                                        })}
-                                        <h3 style={ { color: "rgba(57, 179, 75, 1)", marginTop: "15px"} }>Precio total: ${precioTotal}</h3>
-                                    </>
-                                ),
-                                confirmButtonColor: "rgba(57, 179, 75, 0.8)"
-                            })
-
-                            clearCart()
+                            if(nameRef.current.value != "" && emailRef.current.value != "" && phoneRef.current.value != ""){
+                                handleOrder()
+                            }else{
+                                MySwal.fire({
+                                    title: <p>Complete todos los campos para terminar la compra.</p>,
+                                    confirmButtonColor: "rgb(179, 57, 57)"
+                                })
+                            }
+                            
                         }}>Terminar compra</button>
                     </form>
                         
