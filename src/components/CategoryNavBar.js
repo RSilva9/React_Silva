@@ -1,7 +1,6 @@
 import { React, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getProductsFromDB } from '../firestore';
-import data from '../json/funkoPop.json'
 
 function CategoryNavBar() {
 

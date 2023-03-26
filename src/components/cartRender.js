@@ -1,16 +1,35 @@
-import { React, useContext } from "react";
+import { React, useContext, useRef } from "react";
 import cartContext from "./cartContext";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { Form } from "react-router-dom";
+import { newOrder } from "../firestore";
 
 function CartRender(){
     const { cart } = useContext(cartContext)
     const { removeItemFromCart } = useContext(cartContext)
     const { clearCart } = useContext(cartContext)
     const MySwal = withReactContent(Swal)
+    const nameRef = useRef(null)
+    const emailRef = useRef(null)
+    const phoneRef = useRef(null)
+
     let precioTotal = 0
     for(let item of cart){
         precioTotal += item.price*item.count
+    }
+
+    async function handleOrder(){
+        const orderInfo = {
+            cliente: nameRef.current.value,
+            email: emailRef.current.value,
+            telefono: phoneRef.current.value,
+            productos: cart,
+            total: precioTotal,
+            time: new Date()
+        }
+
+        await newOrder(orderInfo)
     }
     
     return(
@@ -66,24 +85,51 @@ function CartRender(){
                 ?
                 (
                 <div className="d-flex justify-content-between">
-                    <button className="searchButton" onClick={()=>{
+                    <div>
+                    <form>
+                        <label>
+                            Nombre:
+                            <input ref={nameRef} type="text" name="name" />
+                        </label>
+                        <label>
+                            Correo:
+                            <input ref={emailRef} type="text" name="email" />
+                        </label>
+                        <label>
+                            Teléfono:
+                            <input ref={phoneRef} type="text" name="phone" />
+                        </label>
+                        <button type="submit" className="searchButton" onClick={(evt)=>{
+                            evt.preventDefault()
 
-                        MySwal.fire({
-                            title: <p>¡Agradecemos tu compra!</p>,
-                            html: (
-                                <>
-                                    {cart.map(item=>{
-                                        return(
-                                            <h2>{item.name} x{item.count} - ${item.price}</h2>
-                                        )
-                                    })}
-                                    <h3 style={ { color: "rgba(57, 179, 75, 1)", marginTop: "15px"} }>Precio total: ${precioTotal}</h3>
-                                </>
-                            )
-                        })
+                            handleOrder()
 
-                        clearCart()
-                    }}>Terminar compra</button>
+                            MySwal.fire({
+                                title: <p>¡Agradecemos tu compra!</p>,
+                                html: (
+                                    <>
+                                        <h4>Nombre: {nameRef.current.value}</h4>
+                                        <h4>Correo: {emailRef.current.value}</h4>
+                                        <h4>Teléfono: {phoneRef.current.value}</h4>
+                                        <h2 style={{fontWeight: "bolder"}}>Resumen de tu compra:</h2>
+                                        {cart.map(item=>{
+                                            return(
+                                                <h2 key={item.number}>{item.name} x{item.count} - ${item.price}</h2>
+                                                
+                                            )
+                                        })}
+                                        <h3 style={ { color: "rgba(57, 179, 75, 1)", marginTop: "15px"} }>Precio total: ${precioTotal}</h3>
+                                    </>
+                                ),
+                                confirmButtonColor: "rgba(57, 179, 75, 0.8)"
+                            })
+
+                            clearCart()
+                        }}>Terminar compra</button>
+                    </form>
+                        
+                    </div>
+                    
                     <h3>Precio final: ${precioTotal}</h3>
                 </div>
                 )

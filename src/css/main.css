@@ -24,6 +24,42 @@ nav a:hover {
   color: white;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+input[type=text] {
+  box-shadow: 3px 3px 0px 0px rgb(57, 179, 75);
+}
+
+input[type=submit] {
+  background-color: rgb(57, 179, 75);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(57, 179, 75, 0.8);
+}
+
+#swalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 #TitleContainer {
   display: flex;
   flex-direction: row;
