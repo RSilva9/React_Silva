@@ -72,3 +72,4 @@ No tienes que usar eject nunca. El conjunto de funciones seleccionadas es adecua
     + Productos cargados a Firestore.
     + Funciones que permiten la lectura de múltiples datos, datos en específico según id y creación y carga de órdenes de compra.
   - Form agregado en cartRender con la función de recopilar datos del comprador.
+  - Toastify implementado al proyecto a la hora de agregar productos al carrito.
