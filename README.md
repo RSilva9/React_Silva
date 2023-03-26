@@ -2,6 +2,8 @@
 E-Commerce ficticio que ofrece figuras coleccionables llamadas "Funko POPS".
 Este proyecto fue realizado con fines de aprendizaje durante el curso de ReactJS de Coderhousem dictado por Santiago Salkin.
 
+Repositorio montado en Vercel: https://react-silva.vercel.app
+
 **Realizado con ReactJS**
 
 ### En el directorio del proyecto, se puede utilizar lo siguiente:
