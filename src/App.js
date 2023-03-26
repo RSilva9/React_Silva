@@ -6,7 +6,7 @@ import TitleContainer from './components/TitleContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import ContainerNavBar from './components/CategoryNavBar';
+import CategoryNavBar from './components/CategoryNavBar';
 import { CartContextProvider } from './components/cartContext';
 import CartRender from './components/cartRender';
 
@@ -27,14 +27,14 @@ function App() {
 
             <Route path="/catalogo" element={
               <main>
-                <ContainerNavBar />
+                <CategoryNavBar />
                 <ItemListContainer />
               </main>
             }/>
 
             <Route path="catalogo/:categoryName" element={
               <main>
-                <ContainerNavBar />
+                <CategoryNavBar />
                 <ItemListContainer />
               </main>
             }/>

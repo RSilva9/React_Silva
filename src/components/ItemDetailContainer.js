@@ -1,23 +1,22 @@
 import { useState, useEffect, React } from "react";
-import data from "../json/funkoPop.json"
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import ItemCount from "./itemCount";
 import { useContext } from "react";
 import cartContext from "./cartContext";
+import { getSingleProductFromDB } from "../firestore";
 
 function ItemDetailContainer(){
     const [prodSelected, setProd] = useState({})
     const params = useParams()
     const numberProducto = params.numberProducto
-    const { cart, setCart} = useContext(cartContext)
+
+    async function readItem(){
+        let responseProd = await getSingleProductFromDB(numberProducto)
+        setProd(responseProd)
+    }
 
     useEffect(() => {
-        data.forEach(d => {
-            if(d.number == numberProducto){
-                setProd(d)
-            }
-        });
+        readItem()
     }, []); 
 
     const { addItemToCart } = useContext(cartContext)

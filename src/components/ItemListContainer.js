@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import data from "../json/funkoPop.json"
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { getProductsFromDB } from "../firestore";
+
+getProductsFromDB()
 
 function ItemListContainer(){
     const [prodArray, setProd] = useState([])
@@ -9,18 +11,22 @@ function ItemListContainer(){
     const categoryName = params.categoryName
     const filteredArray = []
 
-    useEffect(()=>{
-        if(categoryName == null){
-            setProd(data)
-        }else{
-            for(let item of data){
-                if(item.category == categoryName){
-                    filteredArray.push(item)
+    async function readData(){
+        let response = await getProductsFromDB()
+            if(categoryName == null){
+                setProd(response)
+            }else{
+                for(let item of response){
+                    if(item.category == categoryName){
+                        filteredArray.push(item)
+                    }
                 }
+                setProd(filteredArray)
             }
-            setProd(filteredArray)
-        }
+    }
 
+    useEffect(()=>{
+        readData()
     }, [categoryName]);
 
     return(

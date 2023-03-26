@@ -16,13 +16,17 @@ function CartRender(){
     return(
         <div className="d-flex flex-column p-3">
             <div className="d-flex justify-content-between">
-                <h1>Tu carrito</h1>
                 {
                     cart.length > 0
                     ?
-                    <button className="searchButton" onClick={clearCart}>Limpiar carro</button>
+                    <>
+                        <h1>Tu carrito</h1>
+                        <button className="searchButton" onClick={clearCart}>Limpiar carro</button>
+                    </>
                     :
-                    <></>
+                    <>
+                        <h1>Tu carrito se encuentra vacío.</h1>
+                    </>
                 }
             </div>
             {
@@ -30,20 +34,22 @@ function CartRender(){
                     return(
                         <div className="longCard" key={item.number}>
                             <img src={item.image}></img>
-                            <div id="infoLongCard">
-                                <div>
-                                    <h2>Nombre:</h2>
-                                    <h3>{item.name}</h3>
-                                    <h2>Categoría:</h2>
-                                    <h3>{item.category}</h3>
-                                </div>
-                                <div>
-                                    <h2>Precio:</h2>
-                                    <h3>${item.price}</h3>
-                                </div>
-                                <div>
-                                    <h2>Cantidad:</h2>
-                                    <h3 className="text-center">{item.count}</h3>
+                            <div className="d-flex flex-row w-100">
+                                <div id="infoLongCard">
+                                    <div>
+                                        <h2>Nombre:</h2>
+                                        <h3>{item.name}</h3>
+                                        <h2>Categoría:</h2>
+                                        <h3>{item.category}</h3>
+                                    </div>
+                                    <div>
+                                        <h2>Precio:</h2>
+                                        <h3>${item.price}</h3>
+                                    </div>
+                                    <div>
+                                        <h2>Cantidad:</h2>
+                                        <h3 className="text-center">{item.count}</h3>
+                                    </div>
                                 </div>
                             </div>
                             <button className="searchButton" onClick={()=>removeItemFromCart(item.number)}>
@@ -71,10 +77,12 @@ function CartRender(){
                                             <h2>{item.name} x{item.count} - ${item.price}</h2>
                                         )
                                     })}
-                                    <h3>${precioTotal}</h3>
+                                    <h3 style={ { color: "rgba(57, 179, 75, 1)", marginTop: "15px"} }>Precio total: ${precioTotal}</h3>
                                 </>
                             )
                         })
+
+                        clearCart()
                     }}>Terminar compra</button>
                     <h3>Precio final: ${precioTotal}</h3>
                 </div>

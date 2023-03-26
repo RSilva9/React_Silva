@@ -1,28 +1,40 @@
-import React from 'react';
+import { React, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import data from "../json/funkoPop.json"
+import { getProductsFromDB } from '../firestore';
+import data from '../json/funkoPop.json'
 
-function ContainerNavBar() {
+function CategoryNavBar() {
 
-    const categorias = []
+    const [categorias, setCategorias] = useState([])
+    const newArr = []
 
-    for(let item of data){
-        if(!categorias.includes(item.category)){
-            categorias.push(item.category)
+    async function readData(){
+        let response = await getProductsFromDB()
+        for(let item of response){
+            if(!newArr.includes(item.category)){
+                newArr.push(item.category)
+            }
         }
+        setCategorias(newArr)
     }
+
+    useEffect(()=>{
+        readData()
+    },[])
 
     return (
     <nav id="containerNavBar">
         <div className='d-flex justify-content-around flex-wrap'>
         {
-            categorias.map(item=>(
-                <Link to={`/catalogo/${item}`} key={item}>{item}</Link>
-            ))
+            categorias.map((cat)=>{
+                return(
+                    <Link to={`/catalogo/${cat}`} key={cat}>{cat}</Link>
+                )
+            })
         }
         </div>
     </nav>
     );
 }
 
-export default ContainerNavBar;
+export default CategoryNavBar;

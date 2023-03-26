@@ -1,17 +1,22 @@
 import React from 'react';
 import Title from './Title';
-import data from '../json/funkoPop.json'
 import { useState, useEffect } from 'react';
+import { getProductsFromDB } from "../firestore";
 
 function TitleContainer(){
     const [image, setImage] = useState([])
-
-    useEffect(()=>{
-        data.forEach(i=>{
-            if(i.image == "/pops/DarthVader.webp"){
-                setImage(i.image)
+    
+    async function readData(){
+        let response = await getProductsFromDB()
+        response.forEach(item=>{
+            if(item.image == "/pops/DarthVader.webp"){
+                setImage(item.image)
             }
         })
+    }
+
+    useEffect(()=>{
+        readData()
     })
 
     return(
