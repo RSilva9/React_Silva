@@ -1,6 +1,6 @@
 # *Funkify - Tienda Online*
 E-Commerce ficticio que ofrece figuras coleccionables llamadas "Funko POPS".
-Este proyecto fue realizado con fines de aprendizaje durante el curso de ReactJS de Coderhousem dictado por Santiago Salkin.
+Este proyecto fue realizado con fines de aprendizaje durante el curso de ReactJS de Coderhouse dictado por Santiago Salkin.
 
 Repositorio montado en Vercel: https://react-silva.vercel.app
 
